@@ -20,3 +20,4 @@ Get all installed/running pods : **kubctl get pods**
 
 ## Kali Linux
 
+## Music Tips
