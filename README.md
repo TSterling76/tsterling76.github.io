@@ -3,6 +3,7 @@
 ## Docker
 
 ## Splunk
+[Fundamentals link](https://www.splunk.com/en_us/training/splunk-fundamentals.html)
 
 ## Kubernetes
 
