@@ -18,6 +18,7 @@ Get all installed/running pods : **kubctl get pods**
 ## Kali Linux
 
 [percipio](https://lockheedmartin.percipio.com/search?q=pentest)
+[test](index.html)
 
 1. Phase 1: Passive reconnaissance:
 	- Look at job posting
