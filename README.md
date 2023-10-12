@@ -16,9 +16,7 @@ A **pod** houses a set of containers that are coupled
 Get all installed/running pods : **kubctl get pods**
 
 ## Kali Linux
-
 [percipio](https://lockheedmartin.percipio.com/search?q=pentest)
-[test](index.html)
 
 1. Phase 1: Passive reconnaissance:
 	- Look at job posting
@@ -37,41 +35,42 @@ Get all installed/running pods : **kubctl get pods**
 
 ## Nmap
 
-- **Nmap *-sS*** : Perform  SYN Flag Scan  on host 
+- ***-sS*** : Perform  SYN Flag Scan  on host 
 
-- **Nmap -sA**: Perform ACK Flag Scan  on host
+- **-sA**: Perform ACK Flag Scan  on host
 
-- **nmap -sN**: Perform a NULL scan, avoid detecting non-stateful firewalls
+- **-sN**: Perform a NULL scan, avoid detecting non-stateful firewalls
 
-- **Nmap -sF** : Perform  FIN Flag Scan
+- **-sF** : Perform  FIN Flag Scan
 
-- **Nmap -sX**: Xmas scan, which sends the TCP segment with three flags raised. These flags are FIN, PSH, and URG
+- **-sX**: Xmas scan, which sends the TCP segment with three flags raised. These flags are FIN, PSH, and URG
 
 The -s means stealth scan
 
- - **Nmap -sV**: Scan for services/version info running
+ - **-sV**: Scan for services/version info running
 
- - **Nmap -sT**: TCP Scan, Port scanning
+ - **sT**: TCP Scan, Port scanning
 
- - **Nmap -sU**: UDP Scan, Port Scanning
+ - **-sU**: UDP Scan, Port Scanning
 
- - **Nmap -T**:  the speed of your stealth scan. T0 is paranoid, T1 is sneaky, T2 Is polite, T3 Is normal, T4 is aggressive, and T5 is insane
+ - **-T**:  the speed of your stealth scan. T0 is paranoid, T1 is sneaky, T2 Is polite, T3 Is normal, T4 is aggressive, and T5 is insane
 
- - **Nmap -v**: increases verbosity level, tells you more about the host
+ - **-v**: increases verbosity level, tells you more about the host
 
- - **Nmap -A**: Enable OS Detection AND version detection AND tracroute
+ - **-A**: Enable OS Detection AND version detection AND tracroute
 
- - **Nmap -sn**: PING Scan
+ - **-sn**: PING Scan
 
- - **Nmap -PR**: Perform/Send ARP Request
+ - **-PR**: Perform/Send ARP Request
 
- - **Nmap -sn -PS 80**:     send the SYN message to a specific port
+ - **-sn -PS 80**:    send the SYN message to a specific port
 
--O: only enable OS Detection
+ - **O**: only enable OS Detection
 
-  - **Nmap -F** : FAST Scan
+  - **-F** : FAST Scan
 
   ## GENERAL Linux TIPS
 
     - loginctl
     - systemctl
+
